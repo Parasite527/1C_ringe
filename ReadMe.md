@@ -1,5 +1,5 @@
 Поляков Александр
-20.10 - Алгоритмы
+20.10 - Системное программирование
 
 required python 3.11, package python-Levenshtein (pip install python-Levenshtein)
 
