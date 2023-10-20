@@ -21,7 +21,8 @@ for dir1_file in dir1_files:
             s2 = f.read()
 
         # длины сильно отличаются -> не подходит
-        if (max(len(s2), len(s1)) - min(len(s2), len(s1))) / max(len(s2), len(s1)):
+        if (max(len(s2), len(s1)) - min(len(s2), len(s1))) / max(len(s2), len(s1)) \
+            < needed_severity + precision:
             continue
 
         percentage = abs(max(len(s1), len(s2)) - distance(s1, s2)) / max(len(s1), len(s2))
